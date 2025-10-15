@@ -1,5 +1,26 @@
-https://www.google.com/search?q=chat&oq=chat&gs_lcrp=EgZjaHJvbWUyBggAEEUYPDIOCAEQRRgnGDsYgAQYigUyFwgCEEUYORhDGIMBGLEDGMkDGIAEGIoFMgYIAxBFGDsyEggEEAAYQxiDARixAxiABBiKBTISCAUQABhDGIMBGLEDGIAEGIoFMgcIBhAAGIAEMgYIBxBFGDzSAQg1NjMwajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #484041 !important; 
+    color: white;
+    display: flex;
+    gap: calc(2rem);
+    justify-content: center;
+}
 
 .image{
-    width: 1rem;
+    width: 5rem;
+    border-radius: 60%;
 }
+
+body{
+    font-family: sans-serif;
+    background-color: #E0D8D0;
+}
+/* .test{
+    display: flex;
+    flex-direction: row;
+} */
