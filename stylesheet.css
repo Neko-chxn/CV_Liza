@@ -15,12 +15,71 @@ header{
     width: 5rem;
     border-radius: 60%;
 }
+main{
+    width: 80vw;
+    margin: auto;
+}
 
 body{
     font-family: sans-serif;
     background-color: #E0D8D0;
 }
-/* .test{
+
+.container{
     display: flex;
-    flex-direction: row;
-} */
+}
+
+.card{
+    background-color: #383640;
+    color: white;
+    /* width: 30rem;
+    height: 10rem; */
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem;
+}
+
+.mid_card{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    text-align: left;
+}
+
+.milieu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.link{
+    background-color: #383640;
+    color: white;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bas{
+    background-color: #383640;
+    color: white;
+    width: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.pied{
+    background-color: #484041; 
+    color: white;
+    display: flex;
+    gap: calc(2rem);
+    justify-content: center;
+}
