@@ -1,46 +1,49 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-:root{
+
+:root {
     --marron: #484041;
     --card: #383640;
     --beige: #E0D8D0;
 }
 
-a{
+a {
     color: white;
 }
 
-header{
-    background-color: var(--marron) !important; 
+header {
+    background-color: var(--marron) !important;
     color: white;
     display: flex;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto Mono", monospace;
 }
 
-.image{
+.image {
     width: 5rem;
     border-radius: 60%;
 }
-main{
+
+main {
     width: 80vw;
     margin: auto;
 }
 
-body{
-    font-family: sans-serif;
+body {
     background-color: var(--beige);
+    font-family: "Montserrat", sans-serif;
 }
 
-.txt{
+.txt {
     width: 33rem;
     text-align: justify;
 }
 
-.container{
+.container {
     display: flex;
     margin-top: 2rem;
     gap: 10rem;
@@ -48,13 +51,13 @@ body{
     flex-wrap: wrap;
 }
 
-.card-taille{
+.card-taille {
     width: 30rem;
     height: 10rem;
     text-align: center;
 }
 
-.card{
+.card {
     background-color: var(--card);
     color: white;
     display: flex;
@@ -66,14 +69,14 @@ body{
     row-gap: 2rem;
 }
 
-.mid_card{
+.mid_card {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 3rem;
     text-align: left;
 }
 
-.link{
+.link {
     background-color: var(--card);
     color: white;
     width: 6rem;
@@ -87,14 +90,14 @@ body{
     border: 3px var(--card) solid;
 }
 
-.link:hover{
+.link:hover {
     background-color: var(--beige);
     color: var(--card);
 }
 
 
-.pied{
-    background-color: var(--marron); 
+.pied {
+    background-color: var(--marron);
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -102,50 +105,69 @@ body{
     margin-top: 2rem;
     color: white;
     flex-wrap: wrap;
+    font-family: "Roboto Mono", monospace;
 }
 
 /* Autres */
-hr{
+hr {
     margin: 2rem 0rem;
     border-color: var(--marron);
     width: 100%;
 }
 
-.flex-vertical{
+.flex-vertical {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.flex-horizon{
+.flex-horizon {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-.flex-center{
+.flex-center {
     justify-content: center;
 }
-.flex-gab{
+
+.flex-gab {
     gap: 5rem;
     row-gap: 1rem;
 }
 
-.t1{
+.t1 {
     width: 30rem;
     padding: 2rem;
+    line-height: 2rem;
 }
 
-.txt-justify{
+.txt-justify {
     text-align: justify;
 }
 
-.card>ul{
+.card>ul {
     text-align: left;
     margin: auto;
 }
 
-.mauto{
+.mauto {
     margin: auto;
     width: max-content;
+    margin-bottom: 2rem;
+}
+
+.txt-size {
+    font-size: larger;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.gras{
+    font-weight: 700;
+}
+.italik{
+    font-style: italic;
 }
